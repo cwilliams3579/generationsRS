@@ -1,15 +1,15 @@
-$primary-color: #eee, blue;
-$secondary-color:  #eee,  #333;
-$btn-grad: linear-gradient(to right, #00c6ff 0%, #0072ff 51%, #00c6ff 100%);
+/* // $primary-color: #eee, blue;
+// $secondary-color:  #eee,  #333;
+// $btn-grad: linear-gradient(to right, #00c6ff 0%, #0072ff 51%, #00c6ff 100%); */
 
 .blue-gradient-text {
-    background: -webkit-linear-gradient($primary-color);
+    background: -webkit-linear-gradient(#333, #0072ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .grey-gradient-text {
-    background: -webkit-linear-gradient($secondary-color);
+    background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -21,7 +21,7 @@ $btn-grad: linear-gradient(to right, #00c6ff 0%, #0072ff 51%, #00c6ff 100%);
 }
 
 .btn-grad {
-    background-image: linear-gradient($btn-grad);
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff 51%, #00c6ff 100%);
 }
 
 .btn-grad:hover {
